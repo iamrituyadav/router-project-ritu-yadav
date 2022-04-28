@@ -1,0 +1,61 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "mobile",
+            "price": 10000,
+            "image": "https://via.placeholder.com/200"
+        },
+
+        {
+            "id": 2,
+            "name": "mobile",
+            "price": 20000,
+            "image": "https://via.placeholder.com/200"
+        },
+
+        {
+            "id": 3,
+            "name": "mobile",
+            "price": 30000,
+            "image": "https://via.placeholder.com/200"
+        },
+
+        {
+            "id": 4,
+            "name": "mobile",
+            "price": 40000,
+            "image": "https://via.placeholder.com/200"
+        }, 
+
+        {
+            "id": 5,
+            "name": "mobile",
+            "price": 10000,
+            "image": "https://via.placeholder.com/200"
+        },
+
+        {
+            "id": 6,
+            "name": "mobile",
+            "price": 20000,
+            "image": "https://via.placeholder.com/200"
+        },
+
+        {
+            "id": 7,
+            "name": "mobile",
+            "price": 30000,
+            "image": "https://via.placeholder.com/200"
+        },
+
+        {
+            "id": 8,
+            "name": "mobile",
+            "price": 40000,
+            "image": "https://via.placeholder.com/200"
+        }
+
+
+    ]
+}

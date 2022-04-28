@@ -1,0 +1,85 @@
+body{
+  padding: 0px;
+  margin: 0px
+}
+
+.d-none {
+  display: none;
+}
+
+.App {
+  text-align: center;
+  background-color: #6FDFDF;
+  color: #5534A5;
+}
+
+.products{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.products>div{
+  width: 300px;
+  height: 400px;
+  padding: 5px 20px;
+  margin: auto;
+  /* background-color:  */
+}
+
+.navbar{
+  background-color: black;
+  height: 55px;
+  padding-top: 25px;
+}
+
+.navbar>a{
+  margin: 10px 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+.aboutUs{
+  width: 1000px;
+  margin: auto;
+  font-size: 20px;
+}
+
+.contactUs{
+  margin: auto;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.contactUs>button{
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: #5534A5;
+  color: #6FDFDF;
+}
+
+.addToCart{
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #5534A5;
+  color: #6FDFDF;
+}
+
+.slideshow-conainer{
+  margin-left: 60px;
+  display: flex;
+}
+
+.slideshow-conainer>a{
+  margin-top: 100px;
+  font-size: 40px;
+  cursor:default;
+}
+
+
+
