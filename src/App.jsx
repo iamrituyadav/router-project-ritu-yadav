@@ -8,6 +8,8 @@ import AboutUs from "./Components/aboutUs";
 import FAQ from "./Components/FAQ";
 import Navbar from "./Components/Navbar";
 import Cart from "./Components/Cart";
+import ProductDetails from "./Components/ProductDetails";
+import Notfound from "./Components/Notfound";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/FAQ" element={<FAQ />}></Route>
         <Route path="/contactus" element={<ContactUs />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
+        <Route path="/products/:id" element={<ProductDetails />}></Route>
+        <Route path="*" element={<Notfound />} />
       </Routes>
     </div>
   );
